@@ -20,9 +20,9 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #1a153d;
+  --color-primary: #27374D;
   /* --color-secondary: #ffba49; */
-  --color-secondary: #BAC7BE;
+  --color-secondary: #F5F5F5;
 }
 
 /* Smooth scroll behavior */
@@ -742,7 +742,7 @@ section {
 # Clients Section
 --------------------------------------------------------------*/
 .clients {
-  background-color: #0d026e;
+  background-color: var(--color-primary);
   padding: 40px 0;
 }
 
