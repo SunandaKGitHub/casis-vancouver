@@ -397,22 +397,50 @@
         <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"
           data-portfolio-sort="original-order" data-aos="fade-up" data-aos-delay="100">
 
+          <script>
+            function showBlurb(blurb_id){
+              document.getElementById('police-blurb').style.display = "none";
+              document.getElementById('intel-blurb').style.display = "none";
+              document.getElementById('public_safety-blurb').style.display = "none";
+              document.getElementById('military-blurb').style.display = "none";
+
+              if(blurb_id != null){
+                blurb = document.getElementById(blurb_id);
+                blurb.style.display = "block";
+              }
+             
+            }
+          </script>
           <div>
             <ul class="portfolio-flters">
-              <li data-filter="*" class="filter-active">ALL</li>
-              <li data-filter=".filter-police" class="filter-active">POLICE</li>
-              <li data-filter=".filter-intelligence">INTELLIGENCE</li>
-              <li data-filter=".filter-public-safety">PUBLIC-SAFETY</li>
-              <li data-filter=".filter-military">MILITARY</li>
+              <li data-filter="*" class="filter-active"><a onclick="showBlurb();">ALL</a></li>
+              <li data-filter=".filter-police"> <a onclick="showBlurb('police-blurb');">POLICE</a></li>
+              <li data-filter=".filter-intelligence"><a onclick="showBlurb('intel-blurb');">INTELLIGENCE</a></li>
+              <li data-filter=".filter-public-safety"><a onclick="showBlurb('public_safety-blurb');">PUBLIC-SAFETY</a></li>
+              <li data-filter=".filter-military"><a onclick="showBlurb('military-blurb');">MILITARY</a></li>
             </ul><!-- End Portfolio Filters -->
           </div>
 
+     
+          <div>
+            <center>
+              <p  id="police-blurb" class="blurb">CASIS Vancouver collaborates with law enforcement and policing agencies to act as a handshake with expert practitioners on the latest best practices in areas such as proactive policing and intelligence-led policing. CASIS Vancouver also delivers training to government agencies and various law enforcement agencies across Canada.
+              </p>
+              <p  id="intel-blurb" class="blurb">CASIS Vancouver provides evidence-based research and tools to advise the intelligence community about best practices in accountability. Our mission is to build resilience, advance best practice, and preserve democracy. In order to enhance Canadian national security, CASIS Vancouver disseminates in-house, original research as well as academic papers and expert reports via the Journal of Intelligence, Conflict, and Warfare.
+              </p>
+              <p  id="public_safety-blurb" class="blurb">CASIS Vancouver preserves public safety by exploring the application of contemporary intelligence tools to manage the evolving threat landscape. We create new approaches to the protection of public safety based on analysis of emerging risks. CASIS Vancouver actively engages with agencies to enhance professional practice with new peer reviewed research to refine and enhance analyst and practitioner training. 
+              </p>
+              <p  id="military-blurb" class="blurb">CASIS Vancouver informs the development of military-sector intelligence practice by creating and disseminating evidence-based tools, models, and applications. Through fieldwork, theoretical model development, and research, we promote a comprehensive understanding of contemporary conflict and the evolving threat landscape. 
+              </p>
+            </center>
+            <br>
+            </div>
+            
           <div class="row gy-4 portfolio-container">
-
             <div class="col-xl-4 col-md-6 portfolio-item filter-police">
               <div class="portfolio-wrap">
                 <a href="ahttps://casisvancouver.ca/westcoastconference/wp-content/uploads/2021/02/Brenda-Butterworth-Carr.png" data-gallery="portfolio-gallery-app" 
-                class="glightbox avatar avatar-xl rounded-circle">
+                class="glightbox">
                   <img
                     src="https://casisvancouver.ca/westcoastconference/wp-content/uploads/2021/02/Brenda-Butterworth-Carr.png" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">

@@ -1121,6 +1121,14 @@ section {
   text-align: center;
 }
 
+.portfolio .blurb{
+  display: none;
+  padding: 20px;
+  background-color: #09005b;
+  border: solid;
+  border-color: #faa506;
+  color: #faa506;
+}
 .portfolio .portfolio-flters li {
   cursor: pointer;
   display: inline-block;
