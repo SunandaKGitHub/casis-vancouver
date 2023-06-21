@@ -1909,6 +1909,12 @@ section {
   }
 }
 
+.hero .img-logo {
+  position: absolute;
+  left: 60%;
+  transform: translateY(+50%);
+}
+
 .hero h2 {
   font-size: 48px;
   font-weight: 700;
@@ -1969,6 +1975,10 @@ section {
   .hero .btn-get-started,
   .hero .btn-watch-video {
     font-size: 14px;
+  }
+  .hero .img-logo{
+    position: relative;
+    left:auto;
   }
 }
 
