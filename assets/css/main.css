@@ -1126,10 +1126,10 @@ section {
 .portfolio .blurb{
   display: none;
   padding: 20px;
-  background-color: #09005b;
+  background-color: var(--color-primary);
   border: solid;
   border-color: #ffba49;
-  color: #ffba49;
+  color: #F5F5F5;
 }
 .portfolio .portfolio-flters li {
   cursor: pointer;
