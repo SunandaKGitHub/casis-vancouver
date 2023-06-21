@@ -1603,7 +1603,7 @@ section {
 # Frequently Asked Questions Section
 --------------------------------------------------------------*/
 .faq {
-  background-color: #0d026e;
+  background-color: var(--color-primary);
 }
 .faq .content h3 {
   color: #ffba49;
@@ -1620,7 +1620,7 @@ section {
 
 .faq .content p {
   font-size: 15px;
-  color: #ffba49;
+  color: #F5F5F5;
 }
 
 .faq .accordion-item {
@@ -1647,7 +1647,7 @@ section {
   border: 0;
   font-size: 18px;
   line-height: 24px;
-  color: var(--color-secondary);
+  color: #ffba49;
   text-align: left;
   background: #000;
   box-shadow: none;
@@ -1657,11 +1657,11 @@ section {
   padding-right: 10px;
   font-size: 20px;
   line-height: 0;
-  color: var(--color-secondary);
+  color: #ffba49;
 }
 
 .faq .accordion-button:not(.collapsed) {
-  color: var(--color-secondary);
+  color: #ffba49;
   border-bottom: 1;
   box-shadow: none;
 }
@@ -1670,13 +1670,14 @@ section {
   position: absolute;
   right: 20px;
   top: 20px;
-  color: #ffba49;
+  color: var(--color-secondary);
 }
 
 .faq .accordion-body {
   padding: 0 40px 30px 45px;
   border: 1;
   border-color: #ffba49;
+  color: var(--color-secondary);
   background: #000;
   box-shadow: none;
 }
