@@ -499,7 +499,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 131, 116, 0.9);
+    background: #09005b;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -545,7 +545,7 @@ section {
   .navbar .getstarted:hover,
   .navbar .getstarted:focus:hover {
     color: #fff;
-    background: rgba(0, 131, 116, 0.8);
+    background: rgba(255, 209, 5, 0.8);
   }
 
   .navbar .dropdown ul,
@@ -555,8 +555,8 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    background-color: #007466;
-    border: 1px solid #006459;
+    background-color: #e9b60e;
+    border: 1px solid #f7cb0a;
   }
 
   .navbar .dropdown>.dropdown-active,
@@ -598,7 +598,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(0, 106, 93, 0.8);
+    background: rgba(253, 207, 0, 0.8);
     z-index: 9996;
   }
 }
@@ -1055,7 +1055,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #009d8b;
+  color: #faa506;
   font-size: 26px;
   line-height: 0;
 }
@@ -1171,15 +1171,17 @@ section {
 
 .portfolio .portfolio-wrap img {
   transition: 0.3s;
+  height: 240px;
+  width: 240px;
   position: relative;
   z-index: 1;
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
   padding: 25px 20px;
-  background-color: #fff;
+  background-color: rgb(221, 220, 220);
   position: relative;
-  border-top: 1px solid #f3f3f3;
+  border-top: 1px solid #faa506;
   z-index: 2;
 }
 
@@ -1199,7 +1201,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #6c757d;
+  color: #09005b;
   font-size: 14px;
   margin-bottom: 0;
   padding-right: 50px;
@@ -1308,7 +1310,7 @@ section {
 }
 
 .portfolio-details .portfolio-info .btn-visit:hover {
-  background: #009d8b;
+  background: #0d026e;
 }
 
 .portfolio-details .portfolio-description h2 {
@@ -1352,7 +1354,7 @@ section {
 
 .portfolio-details .portfolio-description .testimonial-item .quote-icon-left,
 .portfolio-details .portfolio-description .testimonial-item .quote-icon-right {
-  color: #009d8b;
+  color: #09005b;
   font-size: 26px;
   line-height: 0;
 }
