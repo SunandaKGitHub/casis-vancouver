@@ -1910,7 +1910,6 @@ section {
 @media (min-width: 1365px) {
   .hero .img-logo{
     position: relative;
-    align-self: center;
     left:auto;
   }
   .hero {
@@ -1987,7 +1986,6 @@ section {
   }
   .hero .img-logo{
     position: relative;
-    align-self: center;
     left:auto;
   }
 }
@@ -1998,12 +1996,6 @@ section {
 }
 
 @media (min-width: 1200px) {
-  .hero .img-logo{
-    position: relative;
-    align-self: center;
-    left:auto;
-  }
-
   .hero .icon-boxes:before {
     content: "";
     position: absolute;
