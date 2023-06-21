@@ -1388,7 +1388,7 @@ section {
 --------------------------------------------------------------*/
 .team .member {
   text-align: center;
-  background: #fff;
+  background-color: rgb(221, 220, 220);
   border-radius: 10px;
   padding: 15px;
   overflow: hidden;
@@ -1415,7 +1415,7 @@ section {
   font-style: italic;
   display: block;
   font-size: 14px;
-  color: #6c757d;
+  color: #09005b;
 }
 
 .team .member p {
