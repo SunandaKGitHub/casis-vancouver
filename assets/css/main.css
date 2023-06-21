@@ -20,7 +20,7 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #09005b;
+  --color-primary: #1a153d;
   --color-secondary: #ffba49;
 }
 
@@ -1192,7 +1192,7 @@ section {
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 18px;
   font-weight: 600;
-  padding-right: 50px;
+  /* padding-right: 50px; */
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 a {
