@@ -20,7 +20,7 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #27374D;
+  --color-primary: #184150;
   /* --color-secondary: #ffba49; */
   --color-secondary: #F5F5F5;
 }
@@ -1185,7 +1185,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info {
   padding: 25px 20px;
-  background-color: rgb(221, 220, 220);
+  background-color: #cdd6e1;
   position: relative;
   border-top: 1px solid #ffba49;
   z-index: 2;
@@ -1671,14 +1671,14 @@ section {
   position: absolute;
   right: 20px;
   top: 20px;
-  color: #000;
+  color: var(--color-secondary);
 }
 
 .faq .accordion-body {
   padding: 0 40px 30px 45px;
   border: 1;
   border-color: #ffba49;
-  color: #000;
+  color: var(--color-secondary);
   background: #000;
   box-shadow: none;
 }
