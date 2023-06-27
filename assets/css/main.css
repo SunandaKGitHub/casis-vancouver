@@ -21,6 +21,7 @@
 :root {
   --color-default: #222222;
   --color-primary: #1d325d;
+  --color-gray: #9c9b9b;
   /* --color-secondary: #ffba49; */
   --color-secondary: #c5c1c1;
 }
@@ -63,6 +64,7 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+  background-color: var(--color-gray);
 }
 
 .sections-bg {
@@ -944,7 +946,7 @@ section {
 
 .services .service-item {
   padding: 40px;
-  background: #2e2b2b;
+  background: var(--color-gray);
   height: 100%;
   border-radius: 1px;
   border: solid;
@@ -959,7 +961,7 @@ section {
 }
 
 .services .service-item .icon i {
-  color: var(--color-secondary);
+  color: var(--color-primary);
   font-size: 56px;
   transition: ease-in-out 0.3s;
   z-index: 2;
@@ -971,7 +973,7 @@ section {
   content: "";
   height: 100%;
   width: 100%;
-  background: #2e2b2b;
+  background: var(--color-gray);
   border-radius: 50px;
   z-index: 1;
   top: 10px;
@@ -987,7 +989,7 @@ section {
   font-size: 22px;
   position: relative;
   display: inline-block;
-  border-bottom: 4px solid var(--color-secondary);
+  border-bottom: 4px solid var(--color-primary);
   transition: 0.3s;
 }
 
@@ -995,6 +997,7 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  color: var(--color-primary);
 }
 
 .services .service-item .readmore {
@@ -2006,13 +2009,13 @@ section {
     left: 0;
     right: 0;
     height: calc(50% + 20px);
-    background-color: #000;
+    background-color: var(--color-gray);
   }
 }
 
 .hero .icon-box {
   border: solid;
-  border-color: #a1a1a1;
+  border-color: #ffba49;
   padding: 30px 10px;
   position: relative;
   overflow: hidden;
