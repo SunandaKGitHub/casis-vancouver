@@ -22,6 +22,7 @@
   --color-default: #222222;
   --color-primary: #1d325d;
   --color-gray: #9c9b9b;
+  --color-yellow-text: #e0bc6e;
   /* --color-secondary: #ffba49; */
   --color-secondary: #c5c1c1;
 }
@@ -100,6 +101,7 @@ section {
 
 .section-header p {
   margin-bottom: 0;
+  color: var(--color-primary);
 }
 
 /*--------------------------------------------------------------
@@ -1681,7 +1683,7 @@ section {
   padding: 0 40px 30px 45px;
   border: 1;
   border-color: #ffba49;
-  color: var(--color-secondary);
+  color: var(--color-yellow-text);
   background: #000;
   box-shadow: none;
 }
@@ -2619,7 +2621,7 @@ section {
   font-size: 14px;
   background-color: var(--color-primary);
   padding: 50px 0;
-  color: white;
+  color: var(--color-yellow-text);
 }
 
 .footer .footer-info .logo {
@@ -2654,7 +2656,7 @@ section {
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.2);
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--color-yellow-text);
   margin-right: 10px;
   transition: 0.3s;
 }
@@ -2700,7 +2702,7 @@ section {
 }
 
 .footer .footer-links ul a {
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--color-yellow-text);
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
