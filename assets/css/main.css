@@ -1626,7 +1626,7 @@ section {
 
 .faq .content p {
   font-size: 15px;
-  color: #F5F5F5;
+  color: var(--color-yellow-text);
 }
 
 .faq .accordion-item {
