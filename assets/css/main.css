@@ -74,7 +74,7 @@ section {
 
 .section-header {
   text-align: center;
-  color:#ffba49;
+  color:#e0bc6e;
   padding-bottom: 60px;
 }
 
@@ -84,6 +84,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+  color:#e0bc6e;
 }
 
 .section-header h2:after {
