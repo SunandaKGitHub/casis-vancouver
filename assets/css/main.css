@@ -2733,3 +2733,7 @@ section {
 .container.aos-init.aos-animate h3{
   color: #ffba49;
 }
+
+.service-item.position-relative h3{
+   color: #ffba49;
+}
