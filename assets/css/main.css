@@ -2729,3 +2729,7 @@ section {
 .footer .credits a {
   color: #fff;
 }
+
+.container.aos-init.aos-animate h3{
+  color: #ffba49;
+}
